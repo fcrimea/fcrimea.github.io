@@ -1,0 +1,599 @@
+body a {
+    transition: all 0.5s ease 0s;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu Condensed",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: inline-block;
+    outline: medium none;
+    position: relative;
+    text-decoration: none;
+}
+.header-top {
+    background: #08538c none repeat scroll 0 0;
+    padding: 1em 0;
+}
+.indicat {
+    float: left;
+}
+.detail {
+    float: right;
+}
+.detail ul li {
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 0.5em;
+}
+.indicat span {
+    color: #fff;
+    font-size: 1em;
+}
+nav a:hover, nav a:focus {
+    outline: medium none;
+}
+.header {
+    background: #fff none repeat scroll 0 0;
+}
+.header-menu {
+    background: #f58025 none repeat scroll 0 0;
+    padding: 1em 0;
+}
+.navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin: 0;
+    min-height: auto;
+}
+.navbar-default .navbar-nav > .active > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #08538c;
+    padding: 10px 0;
+}
+div#bs-example-navbar-collapse-1 {
+    float: right;
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-family: "Ubuntu Condensed",sans-serif;
+    font-size: 1.3em;
+    margin: 0 0.8em;
+    padding: 10px 0;
+}
+.logo a {
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.navbar-brand {
+    padding: 2px 35px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0.5em 0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #08538c;
+    outline: medium none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #08538c;
+}
+.caption {
+    padding: 9em 0 0;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll 0 0 / cover ;
+    min-height: 500px;
+}
+.slider {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.rslides {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.caption h3 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.4em;
+    text-transform: capitalize;
+    width: 70%;
+}
+.cap-right {
+    margin-top: 2em;
+}
+.rslides li {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.rslides li:first-child {
+    display: block;
+    float: left;
+    position: relative;
+}
+.banner-bottom {
+    background: #edf7ff none repeat scroll 0 0;
+    text-align: center;
+}
+.ban-grid i {
+    color: #08538c;
+    font-size: 2em;
+}
+.ban-grid h4 {
+    color: #222;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+.ban-left {
+    float: left;
+    width: 70%;
+}
+.ban-right {
+    float: left;
+    width: 30%;
+}
+.ban-grid {
+    border-right: 2px solid #f58025;
+    padding: 2em 0;
+}
+.ban-grid:nth-child(4) {
+    border-right: 0 none;
+}
+.welcome-section {
+    padding: 5em 0;
+}
+.welcome-grids, .services-grids, .gallery-grids {
+    margin-top: 4em;
+}
+h2.tittle {
+    color: #f58025;
+    font-size: 3.5em;
+    text-align: center;
+}
+.services {
+    background: #eff4f5 none repeat scroll 0 0;
+    padding: 5em 0;
+}
+.services-grid:hover div.left-grid i {
+    background: #08538c none repeat scroll 0 0;
+    transition: all 0.5s ease 0s;
+}
+.right-grid h4 {
+    color: #222;
+    font-size: 2em;
+    margin: 0 0 0.5em;
+}
+.left-grid {
+    float: left;
+    margin-right: 5%;
+    width: 20%;
+}
+.left-grid i {
+    background: #f58025 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5em;
+    height: 60px;
+    margin: 0;
+    padding-top: 1em;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 60px;
+}
+.right-grid {
+    float: left;
+    width: 75%;
+}
+.right-grid p {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.tabs {
+    padding: 5em 0;
+}
+.text h4 {
+    color: #222;
+    font-size: 2em;
+}
+.text p {
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-top: 1em;
+}
+.copy-section {
+    padding: 2em 0;
+    text-align: center;
+}
+.copy-section p {
+    color: #222;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.text span {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.text span:nth-child(2) {
+    display: block;
+    margin-top: 1em;
+}
+.text .top-img:nth-child(2) {
+    margin-top: 1em;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: medium none;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+@media (max-width: 1440px) {
+.banner-section {
+    min-height: 490px;
+}
+.caption {
+    padding: 8.5em 0 0;
+}
+}
+@media (max-width: 1280px) {
+.banner-section {
+    min-height: 450px;
+}
+.caption {
+    padding: 8em 0 0;
+}
+}
+@media (max-width: 1080px) {
+.caption h3 {
+    font-size: 2.8em;
+    width: 87%;
+}
+.banner-section {
+    min-height: 420px;
+}
+.caption {
+    padding: 6em 0 0;
+}
+.ban-grid h4 {
+    font-size: 1.5em;
+}
+.wel-grid h4, .right-grid h4, .text h4, .test-grid h4, .footer-section h4, .about-grid1 h4, .team-grid h4, .why-grid h4, .client-grid h4, .contact-left h4 {
+    font-size: 1.8em;
+}
+h2.tittle {
+    font-size: 3em;
+}
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+.navbar-default .navbar-nav > li > a {
+    font-size: 1.2em;
+    margin: 0 0.5em;
+    padding: 10px 0;
+}
+.banner-section {
+    min-height: 375px;
+}
+.logo a {
+    font-size: 0.8em;
+}
+.cap-left {
+    float: left;
+    width: 40%;
+}
+.cap-right {
+    float: left;
+    width: 60%;
+}
+.cap-left img {
+    width: 80%;
+}
+.caption h3 {
+    font-size: 2.5em;
+    width: 100%;
+}
+.ban-grid {
+    float: left;
+    width: 25%;
+}
+.welcome-section, .services, .tabs, .what-section, .about-section, .team, .statistics, .why, .services-section, .page, .gallery, .contact, .our-client, .prices-section {
+    padding: 4em 0;
+}
+.wel-grid p, .right-grid p, .text p, .what-grid p, .test-grid p, .about-grid1 p, .team-grid p, .why-grid p, .client-grid p, .contact-left p {
+    font-size: 0.96em;
+}
+.services-grid {
+    float: left;
+    padding: 0 10px;
+    width: 33.3%;
+}
+.left-grid i {
+    height: 50px;
+    padding-top: 0.7em;
+    width: 50px;
+}
+.left-grid {
+    float: left;
+    margin-right: 5%;
+    width: 22%;
+}
+.right-grid {
+    float: left;
+    width: 73%;
+}
+.text span {
+    font-size: 0.96em;
+}
+}
+@media (max-width: 768px) {
+.ban-left {
+    float: left;
+    width: 80%;
+}
+.ban-grid h4 {
+    font-size: 1.3em;
+}
+.ban-right {
+    float: left;
+    width: 20%;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -52px 0 / cover ;
+    min-height: 347px;
+}
+.caption {
+    padding: 5em 0 0;
+}
+}
+@media (max-width: 736px) {
+div#bs-example-navbar-collapse-1 {
+    float: none;
+    text-align: center;
+}
+.navbar-nav {
+    float: none;
+    margin: 0.5em 0;
+}
+.caption {
+    padding: 5em 0 0;
+}
+.cap-right {
+    padding: 0;
+}
+.ban-grid i {
+    font-size: 1.8em;
+}
+.ban-right {
+    float: left;
+    width: 17%;
+}
+h2.tittle {
+    font-size: 2.8em;
+}
+.wel-grid h4, .right-grid h4, .text h4, .test-grid h4, .footer-section h4, .about-grid1 h4, .team-grid h4, .why-grid h4, .client-grid h4, .contact-left h4 {
+    font-size: 1.7em;
+}
+.welcome-grids, .services-grids, .gallery-grids, .test-grids, .about-grids, .team-grids, .why-grids, .prices-grids {
+    margin-top: 3em;
+}
+}
+@media (max-width: 667px) {
+.indicat {
+    float: none;
+    text-align: center;
+}
+.detail {
+    float: none;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -52px 0 / cover ;
+    min-height: 336px;
+}
+.ban-grid {
+    float: left;
+    width: 50%;
+}
+.ban-grid:nth-child(3), .ban-grid:nth-child(4) {
+    margin-top: 2em;
+}
+.ban-grid:nth-child(2) {
+    border-right: 0 none;
+}
+.caption h3 {
+    font-size: 2.3em;
+}
+.welcome-section, .services, .tabs, .what-section, .about-section, .team, .statistics, .why, .services-section, .page, .gallery, .contact, .our-client, .prices-section, .footer-section {
+    padding: 3em 0;
+}
+.wel-grid h4, .right-grid h4, .text h4, .test-grid h4, .footer-section h4, .about-grid1 h4, .team-grid h4, .why-grid h4, .client-grid h4, .contact-left h4 {
+    font-size: 1.5em;
+}
+.services-grid {
+    padding: 0 1px;
+}
+}
+@media (max-width: 640px) {
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -52px 0 / cover ;
+    min-height: 300px;
+}
+}
+@media (max-width: 600px) {
+.caption h3 {
+    font-size: 2em;
+}
+.caption {
+    padding: 4em 0 0;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -52px 0 / cover ;
+    min-height: 275px;
+}
+.left-grid {
+    float: none;
+    margin: 0 auto;
+    width: 10%;
+}
+.right-grid {
+    float: none;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 100%;
+}
+.services-grid {
+    width: 100%;
+}
+.services-grid:nth-child(2) {
+    margin: 2em 0;
+}
+.cap-right {
+    margin-top: 1.5em;
+}
+}
+@media (max-width: 568px) {
+.cap-right {
+    margin-top: 1em;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -52px 0 / cover ;
+    min-height: 258px;
+}
+}
+@media (max-width: 480px) {
+.cap-left {
+    width: 100%;
+}
+.navbar-brand {
+    padding: 2px 15px;
+}
+.logo a {
+    font-size: 0.6em;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -226px 0 / cover ;
+    min-height: 316px;
+}
+.caption {
+    padding: 2em 0;
+}
+.cap-right {
+    width: 100%;
+}
+.cap-left img {
+    width: 50%;
+}
+.ban-grid {
+    padding: 1.5em 0 0;
+    width: 100%;
+}
+.ban-grid:nth-child(4) {
+    margin-top: 0;
+    padding: 1em 0;
+}
+.ban-grid:nth-child(3) {
+    margin-top: 0;
+}
+.ban-left {
+    float: left;
+    width: 65%;
+}
+.ban-right {
+    float: left;
+    width: 20%;
+}
+.ban-grid:nth-child(1) {
+    border-right: 0 none;
+}
+.ban-grid:nth-child(3) {
+    border-right: 0 none;
+}
+h2.tittle {
+    font-size: 2.5em;
+}
+.welcome-section, .services, .tabs, .what-section, .about-section, .team, .statistics, .why, .services-section, .page, .gallery, .contact, .our-client, .prices-section, .footer-section {
+    padding: 2em 0;
+}
+.welcome-grids, .services-grids, .gallery-grids, .test-grids, .about-grids, .team-grids, .why-grids, .prices-grids {
+    margin-top: 2em;
+}
+button.btn.btn-lg {
+    font-size: 0.9em;
+    margin: 0 0 0.5em;
+    padding: 9px;
+}
+}
+@media (max-width: 414px) {
+}
+@media (max-width: 384px) {
+h2.tittle {
+    font-size: 2.2em;
+}
+.caption {
+    padding: 3em 0 2em;
+}
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+.indicat span {
+    font-size: 0.9em;
+}
+.detail ul li {
+    font-size: 0.9em;
+}
+.header-menu {
+    padding: 0.8em 0;
+}
+.caption h3 {
+    font-size: 1.7em;
+}
+.banner-section {
+    background: rgba(0, 0, 0, 0) url("../images/banner1.jpg") no-repeat scroll -200px 0 / cover ;
+    min-height: 280px;
+}
+.logo a {
+    font-size: 0.5em;
+}
+.caption {
+    padding: 3em 0 0;
+}
+.wel-grid, .services-grid, .what-grid, .what-grid1, .test-grid, .footer-grid, .about-grid, .team-grid, .statistics-grid, .why-grid, .client-grid, .client-grid1, .price-grid, .contact-left {
+    padding: 0;
+}
+}
